@@ -151,7 +151,6 @@ public class APIsController extends BaseController {
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, _queryParameters);
         //validate and preprocess url
         String _queryUrl = APIHelper.cleanUrl(_queryBuilder);
-        System.out.println(_queryUrl); 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>();
         _headers.put("user-agent", BaseController.userAgent);
