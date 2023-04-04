@@ -20,7 +20,7 @@ import com.demo.weather.forecast.model.RequestRest;
 import com.demo.weather.forecast.model.ResponseRest;
 
 @Controller
-public class HelloWorldController{
+public class ForecastController{
     String key = "c86dd8ba1c0343b5bb510250230304";
     ResponseRest responseRest = new ResponseRest();
     WeatherAPIClient client = new WeatherAPIClient(key);
